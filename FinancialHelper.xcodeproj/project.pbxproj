@@ -17,6 +17,15 @@
 		8771F89C2B55D9A0000FB2DB /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 8771F89B2B55D9A0000FB2DB /* Collections */; };
 		8771F89F2B55DA23000FB2DB /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 8771F89E2B55DA23000FB2DB /* SwiftUIFontIcon */; };
 		8771F8A22B55DA9C000FB2DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8771F8A12B55DA9C000FB2DB /* SwiftUICharts */; };
+		8771F8A62B55E36A000FB2DB /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8A52B55E36A000FB2DB /* TransactionListViewModel.swift */; };
+		8771F8A82B55E3B3000FB2DB /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8A72B55E3B3000FB2DB /* TransactionModel.swift */; };
+		8771F8AA2B55E3DC000FB2DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8A92B55E3DC000FB2DB /* Extensions.swift */; };
+		8771F8AC2B55E43B000FB2DB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8AB2B55E43B000FB2DB /* SplashScreenView.swift */; };
+		8771F8AE2B55E46C000FB2DB /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8AD2B55E46C000FB2DB /* TransactionList.swift */; };
+		8771F8B02B55E56B000FB2DB /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8AF2B55E56B000FB2DB /* AddEntryView.swift */; };
+		8771F8B42B55E5BF000FB2DB /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8B32B55E5BF000FB2DB /* PreviewData.swift */; };
+		8771F8B62B55E5FD000FB2DB /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8B52B55E5FD000FB2DB /* RecentTransactionList.swift */; };
+		8771F8B82B55E630000FB2DB /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8B72B55E630000FB2DB /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		8771F8862B55D84A000FB2DB /* FinancialHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8771F88A2B55D84A000FB2DB /* FinancialHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialHelperUITests.swift; sourceTree = "<group>"; };
 		8771F88C2B55D84A000FB2DB /* FinancialHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8771F8A52B55E36A000FB2DB /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		8771F8A72B55E3B3000FB2DB /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		8771F8A92B55E3DC000FB2DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8771F8AB2B55E43B000FB2DB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8771F8AD2B55E46C000FB2DB /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		8771F8AF2B55E56B000FB2DB /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		8771F8B32B55E5BF000FB2DB /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		8771F8B52B55E5FD000FB2DB /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		8771F8B72B55E630000FB2DB /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +118,18 @@
 		8771F86E2B55D847000FB2DB /* FinancialHelper */ = {
 			isa = PBXGroup;
 			children = (
+				8771F8A52B55E36A000FB2DB /* TransactionListViewModel.swift */,
 				8771F86F2B55D847000FB2DB /* FinancialHelperApp.swift */,
 				8771F8712B55D847000FB2DB /* ContentView.swift */,
 				8771F8732B55D84A000FB2DB /* Assets.xcassets */,
 				8771F8752B55D84A000FB2DB /* Preview Content */,
+				8771F8A72B55E3B3000FB2DB /* TransactionModel.swift */,
+				8771F8A92B55E3DC000FB2DB /* Extensions.swift */,
+				8771F8AB2B55E43B000FB2DB /* SplashScreenView.swift */,
+				8771F8AD2B55E46C000FB2DB /* TransactionList.swift */,
+				8771F8AF2B55E56B000FB2DB /* AddEntryView.swift */,
+				8771F8B52B55E5FD000FB2DB /* RecentTransactionList.swift */,
+				8771F8B72B55E630000FB2DB /* TransactionRow.swift */,
 			);
 			path = FinancialHelper;
 			sourceTree = "<group>";
@@ -112,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				8771F8762B55D84A000FB2DB /* Preview Assets.xcassets */,
+				8771F8B32B55E5BF000FB2DB /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -273,8 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8771F8AA2B55E3DC000FB2DB /* Extensions.swift in Sources */,
+				8771F8A82B55E3B3000FB2DB /* TransactionModel.swift in Sources */,
 				8771F8722B55D847000FB2DB /* ContentView.swift in Sources */,
+				8771F8B02B55E56B000FB2DB /* AddEntryView.swift in Sources */,
+				8771F8AE2B55E46C000FB2DB /* TransactionList.swift in Sources */,
+				8771F8B42B55E5BF000FB2DB /* PreviewData.swift in Sources */,
+				8771F8A62B55E36A000FB2DB /* TransactionListViewModel.swift in Sources */,
+				8771F8B82B55E630000FB2DB /* TransactionRow.swift in Sources */,
 				8771F8702B55D847000FB2DB /* FinancialHelperApp.swift in Sources */,
+				8771F8AC2B55E43B000FB2DB /* SplashScreenView.swift in Sources */,
+				8771F8B62B55E5FD000FB2DB /* RecentTransactionList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,8 +651,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/ChartView";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = "2.0.0-beta.2";
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct FinancialHelperApp: App {
+    @StateObject var transactionListVM = TransactionListViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView(transactionListVM: transactionListVM)
         }
     }
 }
