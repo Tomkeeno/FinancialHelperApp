@@ -29,7 +29,7 @@ final class TransactionListViewModel: ObservableObject {
     func getTransactions() {
         var geturl: String
         if storedTransaction.isEmpty {
-            geturl = "https://raw.githubusercontent.com/ngcothu/datasets/main/transactions.json"
+            geturl = "https://raw.githubusercontent.com/Tomkeeno/FinancialHelperApp/main/transactions.json"
         
         guard let url = URL(string: geturl) else {
             loadFromPersistingData()
