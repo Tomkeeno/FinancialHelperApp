@@ -14,6 +14,9 @@
 		8771F8812B55D84A000FB2DB /* FinancialHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F8802B55D84A000FB2DB /* FinancialHelperTests.swift */; };
 		8771F88B2B55D84A000FB2DB /* FinancialHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F88A2B55D84A000FB2DB /* FinancialHelperUITests.swift */; };
 		8771F88D2B55D84A000FB2DB /* FinancialHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771F88C2B55D84A000FB2DB /* FinancialHelperUITestsLaunchTests.swift */; };
+		8771F89C2B55D9A0000FB2DB /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 8771F89B2B55D9A0000FB2DB /* Collections */; };
+		8771F89F2B55DA23000FB2DB /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 8771F89E2B55DA23000FB2DB /* SwiftUIFontIcon */; };
+		8771F8A22B55DA9C000FB2DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8771F8A12B55DA9C000FB2DB /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8771F8A22B55DA9C000FB2DB /* SwiftUICharts in Frameworks */,
+				8771F89F2B55DA23000FB2DB /* SwiftUIFontIcon in Frameworks */,
+				8771F89C2B55D9A0000FB2DB /* Collections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +149,11 @@
 			dependencies = (
 			);
 			name = FinancialHelper;
+			packageProductDependencies = (
+				8771F89B2B55D9A0000FB2DB /* Collections */,
+				8771F89E2B55DA23000FB2DB /* SwiftUIFontIcon */,
+				8771F8A12B55DA9C000FB2DB /* SwiftUICharts */,
+			);
 			productName = FinancialHelper;
 			productReference = 8771F86C2B55D847000FB2DB /* FinancialHelper.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,11 @@
 				Base,
 			);
 			mainGroup = 8771F8632B55D847000FB2DB;
+			packageReferences = (
+				8771F89A2B55D9A0000FB2DB /* XCRemoteSwiftPackageReference "swift-collections" */,
+				8771F89D2B55DA23000FB2DB /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				8771F8A02B55DA9B000FB2DB /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 8771F86D2B55D847000FB2DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -577,6 +593,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8771F89A2B55D9A0000FB2DB /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		8771F89D2B55DA23000FB2DB /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8771F8A02B55DA9B000FB2DB /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8771F89B2B55D9A0000FB2DB /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8771F89A2B55D9A0000FB2DB /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		8771F89E2B55DA23000FB2DB /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8771F89D2B55DA23000FB2DB /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		8771F8A12B55DA9C000FB2DB /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8771F8A02B55DA9B000FB2DB /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8771F8642B55D847000FB2DB /* Project object */;
 }
